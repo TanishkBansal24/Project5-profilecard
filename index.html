@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <style>
         .con {
-            height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
+            height: 600px;            
         }
         .box{
             height: 80%;
             width: 80%;
             display: flex;
+            margin: auto;
+            margin-top: 60px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px;
+            
             
         }
         .left,.right,.center {
@@ -40,8 +41,8 @@
             margin: 0;
             box-sizing: border-box;
         }
-        .center,h1 {
-            margin-left: 20px;
+        .center>h1 {
+            margin-left: 10px;
         }
         .right{
             width: 35%;
@@ -49,11 +50,11 @@
             border-radius: 20px;
         }
         .top{
-            height: 30%;
+            height: 35%;
             
         }
         .bottom{
-            height: 70%;
+            height: 65%;
         }
         .top-in{
             height: 90%;
@@ -62,16 +63,14 @@
             border-top-right-radius: 20px;
         }
        .cirle{
-            height: 125px;
-            width: 125x;
+            height: 140px;
+            width: 140x;
             border: 5px solid navy;
             border-radius: 50%;
             position: absolute;
-            top: 80px;
-            right: 240px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            top: 88px;
+            right: 260px;
+           
        } 
        img{ 
             height: 100%;
@@ -80,26 +79,24 @@
             border: 2px solid white;
 
        }
-       .bottom>h1,icons,button{
-            text-align: center;
-            font-size: 20px;
-            margin-bottom: 20px;
-
-       }
+        h2{
+            text-align:center;
+        }
        .icon{
             display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
+            justify-content: space-evenly;
+            align-items: center;
+
+       }
+     
         .button{
             height: 20%;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            color:white;
 
         }
-        .button1{
+        .b{
             height: 50%;
             width: 40%;
             background-color: navy;
@@ -123,6 +120,12 @@
             color: transparent;
             background-clip: text;
         }
+        .fa-heart{
+            color:red;
+        }
+        .fa-share{
+            color:blue;
+        }
 
         </style>
 
@@ -144,8 +147,8 @@
                 </div>
                 <div class="bottom">
                     <h1>Website Developer</h1>
-                    <h1>Dezyne Ecole College</h1>
-                    <h1>BCA 1st Year</h1>
+                    <h2>Dezyne Ecole College</h2>
+                    <h2>BCA 1st Year</h2>
                     <div class="icon">
                         <i class="fa fa-brands fa-facebook"></i>
                          <i class="fa fa-brands fa-instagram"></i> 
@@ -154,8 +157,8 @@
                             <i class="fa fa-brands fa-Behance"></i>
                     </div>
                     <div class="button">
-                        <div class="button1">Subscribe</div>
-                        <div class="button1">Message</div>
+                        <div class="b">Subscribe</div>
+                        <div class="b">Message</div>
                     </div>
                     <div class="icon">
                         <i class="fa fa-brands fa-solid fa-heart></i>60.4k
